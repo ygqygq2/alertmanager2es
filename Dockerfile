@@ -17,5 +17,6 @@ RUN apk add -U openssl curl tar gzip bash ca-certificates git bash bash-doc bash
   && /bin/bash
 
 COPY --from=builder /go/src/app/app /alertmanager2es
+COPY ./entrypoint.sh /entrypoint.sh
 
-CMD ["/alertmanager2es", "--help"]
+ENTRYPOINT ["/entrypoint.sh"]

@@ -9,7 +9,7 @@
 ##############################################################
 
 addr="${ADDR:-0.0.0.0:9097}"
-esURL="${ES_URL}:-http://localhost:9200"
+esURL="${ES_URL:-http://localhost:9200}"
 esIndexName="${ES_INDEX_NAME}"
 esIndexDateFormat="${ES_INDEX_DATE_FORMAT}"
 esType="${ES_TYPE}"

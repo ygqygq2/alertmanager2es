@@ -1,4 +1,5 @@
 # alertmanager2es
+![Publish Docker image](https://github.com/ygqygq2/alertmanager2es/workflows/Publish%20Docker%20image/badge.svg)
 
 alertmanager2es receives [HTTP webhook][] notifications from [AlertManager][]
 and inserts them into an [Elasticsearch][] index for searching and analysis. It

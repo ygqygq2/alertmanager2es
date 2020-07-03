@@ -144,6 +144,8 @@ ES6:
 ```
 
 ES7:
+** 不需要添加模板**
+
 ```json
 {
   "template": "alertmanager-2*",
